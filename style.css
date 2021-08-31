@@ -1,0 +1,26 @@
+
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	gap: 2px 2px;
+	
+	
+}
+
+.card {
+	border: 2px solid black;
+	height: 100px;
+	width: 100px;
+	background-color: cornflowerblue;
+}
+
+#card5 {
+background-image: url(/android-chrome-192x192.png);
+}
+
